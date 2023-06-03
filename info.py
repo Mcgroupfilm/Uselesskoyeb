@@ -88,14 +88,14 @@ APPROVED = environ.get("APPROVED_WELCOME", "off").lower()
 
 # Others
 VERIFY = bool(environ.get('VERIFY',True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tinyfy.in') #
-SHORTLINK_API = environ.get('SHORTLINK_API', '645f3cb39f7fd504c3de8e6adb71722fe5c3d8d0') #
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net') #
+SHORTLINK_API = environ.get('SHORTLINK_API', 'b61c3ce22f9fe49b7b791c725591f22af35938ce') #
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',True))
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG',True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "False")), False)
-S_GROUP = environ.get('S_GROUP',"https://t.me/+tG_HsZA8waBmYjE1")
+S_GROUP = environ.get('S_GROUP',"https://t.me/NewMOvie1stOnTG")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/i24x7Update")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/NewMOvie1stOnTG')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/i24x7Update')
