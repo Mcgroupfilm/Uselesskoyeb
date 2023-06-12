@@ -69,7 +69,7 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nikhilvishwa77:nikhil421@cluster0.re1dizx.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "laudalemera")
+DATABASE_NAME = environ.get('DATABASE_NAME', "laudalemera21")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # FSUB
