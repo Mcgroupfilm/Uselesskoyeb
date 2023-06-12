@@ -88,8 +88,8 @@ APPROVED = environ.get("APPROVED_WELCOME", "off").lower()
 
 # Others
 VERIFY = bool(environ.get('VERIFY',True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net') #
-SHORTLINK_API = environ.get('SHORTLINK_API', 'b61c3ce22f9fe49b7b791c725591f22af35938ce') #
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omnifly.in.net') #
+SHORTLINK_API = environ.get('SHORTLINK_API', '45c911f1b1d6c57c9b01b64ec7780416591e5903') #
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',True))
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG',True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
