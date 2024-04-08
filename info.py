@@ -68,7 +68,7 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Nikhil_Vishwa7:nikhil_vishwa7@cluster0.dla9mvs.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nk3442838:111nikhil@cluster0.nbmfrmy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluter0s")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -83,25 +83,25 @@ group_sub = environ.get('GROUP_SUB')
 GROUP_SUB = int(group_sub) if group_sub and id_pattern.search(group_sub) else None
 
 #Auto approve 
-CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '-1001529371079').split()]
+CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
 APPROVED = environ.get("APPROVED_WELCOME", "off").lower()
 
 # Others
-VERIFY = bool(environ.get('VERIFY',True))
+VERIFY = bool(environ.get('VERIFY',False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omnifly.in.net') #
-SHORTLINK_API = environ.get('SHORTLINK_API', '45c911f1b1d6c57c9b01b64ec7780416591e5903') #
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e7c8d24dca40b8b5746622eecddd031f3d0bfc67') #
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',True))
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG',True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "False")), False)
-S_GROUP = environ.get('S_GROUP',"https://t.me/NewMOvie1stOnTG")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/i24x7Update")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/NewMOvie1stOnTG')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/i24x7Update')
+S_GROUP = environ.get('S_GROUP',"https://t.me/+FPsUMcXqS_k3ZTg9")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/kR_Rolex")
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+FPsUMcXqS_k3ZTg9')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/How_to_Open_Omnifly_Link')
 MSG_ALRT = environ.get('MSG_ALRT', 'Request Again')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ' -1001898364516'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001537820228'))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ' -1001537820228'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
@@ -115,7 +115,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001662241502')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001537820228')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
