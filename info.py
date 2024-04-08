@@ -18,11 +18,11 @@ def is_enabled(value, default):
 
 SESSION = environ.get('SESSION', 'Media_srch')
 
-API_ID = int(environ.get('API_ID', ''))
+API_ID = int(environ.get('API_ID', '20389440'))
 
-API_HASH = environ.get('API_HASH', '')
+API_HASH = environ.get('API_HASH', 'a1a06a18eb9153e9dbd447cfd5da2457')
 
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6998049526:AAFNKfSYiz0vSmVInwqKme_tyFKotrEsQxQ")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -51,8 +51,8 @@ LOGIN_CHANNEL = int(login_channel) if login_channel and id_pattern.search(login_
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 # Custom Chats
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL',-1001898364516))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+EsuevKcA21A1MTU1')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL',-1001537820228))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/Spiderman_No_Way_home77')
 
 #VALUES
 HRK_APP_NAME = environ.get('HRK_APP_NAME', 'mybots')
