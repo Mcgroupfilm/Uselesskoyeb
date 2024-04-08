@@ -20,7 +20,7 @@ SESSION = environ.get('SESSION', 'Media_search')
 
 API_ID = int(environ.get('API_ID', ''))
 
-API_HASH = environ.get('API_HASH', 'da4894b36ca60168ba283519ed551606')
+API_HASH = environ.get('API_HASH', '')
 
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
