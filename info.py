@@ -83,7 +83,7 @@ group_sub = environ.get('GROUP_SUB')
 GROUP_SUB = int(group_sub) if group_sub and id_pattern.search(group_sub) else None
 
 #Auto approve 
-CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
+CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '-1001537820228').split()]
 APPROVED = environ.get("APPROVED_WELCOME", "off").lower()
 
 # Others
