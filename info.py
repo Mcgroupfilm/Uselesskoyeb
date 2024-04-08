@@ -55,8 +55,8 @@ FILE_CHANNEL = int(environ.get('FILE_CHANNEL',-1001537820228))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/Spiderman_No_Way_home77')
 
 #VALUES
-HRK_APP_NAME = environ.get('HRK_APP_NAME', 'mybots')
-HRK_API = environ.get('HRK_API', '0')
+HRK_APP_NAME = environ.get('HRK_APP_NAME', 'krmnoviw')
+HRK_API = environ.get('HRK_API', '80008673-2cb3-4ca6-abe1-66c730495a84')
 
 #Downloader
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
