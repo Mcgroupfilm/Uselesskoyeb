@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 SESSION = environ.get('SESSION', 'Media_srch')
 
-API_ID = int(environ.get('API_ID', '20389440'))
+API_ID = int(environ.get('API_ID', '28625475'))
 
-API_HASH = environ.get('API_HASH', 'a1a06a18eb9153e9dbd447cfd5da2457')
+API_HASH = environ.get('API_HASH', 'da4894b36ca60168ba283519ed551606')
 
 BOT_TOKEN = environ.get('BOT_TOKEN', "6998049526:AAFNKfSYiz0vSmVInwqKme_tyFKotrEsQxQ")
 
@@ -69,7 +69,7 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nk3442838:111nikhil@cluster0.nbmfrmy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluter0s")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # FSUB
@@ -101,8 +101,8 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+FPsUMcXqS_k3ZTg9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/How_to_Open_Omnifly_Link')
 MSG_ALRT = environ.get('MSG_ALRT', 'Request Again')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001537820228'))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ' -1001537820228'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001537820228'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1001537820228')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")),True)
