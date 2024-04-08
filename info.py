@@ -22,7 +22,7 @@ API_ID = int(environ.get('API_ID', '28625475'))
 
 API_HASH = environ.get('API_HASH', 'da4894b36ca60168ba283519ed551606')
 
-BOT_TOKEN = environ.get('BOT_TOKEN', "6998049526:AAFNKfSYiz0vSmVInwqKme_tyFKotrEsQxQ")
+bot_token = os.environ["BOT_TOKEN"]
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
